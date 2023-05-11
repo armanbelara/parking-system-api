@@ -1,0 +1,28 @@
+Requirements
+
+1. Parking Types & vehicle
+(a) S vehicles can park in SP, MP, and LP parking spaces;
+(b) M vehicles can park in MP and LP parking spaces; and
+(c) L vehicles can park only in LP parking spaces.
+
+2. Parking spot assignment
+A vehicle must be assigned a possible and available slot closest to the parking entrance
+
+3. Parking charges
+First 3 hours = 40 pesos
+Succeeding hours = based on vehicle type
+- 20/hour for vehicles parked in SP
+- 60/hour for vehicles parked in MP
+- 100/hour for vehicles parked in LP
+Exceeds 24 hours, every full 24-hour chunk is charged 5,000
+A vehicle leaving the parking complex and returning within one hour must be charged a continuous rate. ***
+
+4. Map of the parking slot
+The list of parking spaces may be the following: [(1,4,5), (3,2,3), ...], where the integer entry per tuple corresponds to the distance unit
+from every parking entry point (A, B, C).
+The sizes of every corresponding parking slot.
+
+5. The sizes of every corresponding parking slot.
+
+6. Two functions to park a vehicle and unpark it.
+When the unpark function is called, it must also return how much the vehicle concerned is charged.

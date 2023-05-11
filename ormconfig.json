@@ -1,0 +1,8 @@
+{
+  "type": "mysql",
+  "port": 3306,
+  "database": "parking_system",
+  "hostname": "localhost",
+  "username": "db_parker",
+  "password": "parking_1234"
+}
